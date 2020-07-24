@@ -12,4 +12,6 @@ router.post('/', _UserController2.default.store);
 router.put('/', _loginRequired2.default, _UserController2.default.update);
 router.delete('/', _loginRequired2.default, _UserController2.default.delete);
 
+// guns
+
 exports. default = router;

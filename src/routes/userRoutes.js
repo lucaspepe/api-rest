@@ -12,4 +12,6 @@ router.post('/', userConstroller.store);
 router.put('/', loginRequired, userConstroller.update);
 router.delete('/', loginRequired, userConstroller.delete);
 
+// guns
+
 export default router;
